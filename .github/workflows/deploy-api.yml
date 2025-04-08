@@ -28,7 +28,7 @@ jobs:
 
       - name: docker push
         run: docker push ${{ secrets.DOCKER_USER}}/mysql-restapi:${{github.sha}}
-        
+             
       
       #- run: docker build -t Mr-Arzi/mysql-restapi .
       #- run: docker images
